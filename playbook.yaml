@@ -1,0 +1,16 @@
+---
+- hosts: all
+  remote_user: root
+  gather_facts: false
+  tasks:
+    - name: Install nginx server
+      block:
+        - name: Update cache
+          apt:
+            update_cache: true
+        - name: Install nginx
+          apt:
+            name: nginx
+            state: latest
+      become: yes
+      become_user: root

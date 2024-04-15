@@ -1,0 +1,50 @@
+{
+  "builds": [
+    {
+      "name": "ubuntu",
+      "builder_type": "azure-arm",
+      "build_time": 1712856198,
+      "files": null,
+      "artifact_id": "/subscriptions/c39f4598-3052-44c2-9661-3adc94a74db7/resourceGroups/packerimages/providers/Microsoft.Compute/images/packer-ubuntu-azure-1712855900",
+      "packer_run_uuid": "2ec6cec7-014f-4cc0-0e8d-fc63df370e65",
+      "custom_data": null
+    },
+    {
+      "name": "windows_2022",
+      "builder_type": "azure-arm",
+      "build_time": 1712918991,
+      "files": null,
+      "artifact_id": "/subscriptions/c39f4598-3052-44c2-9661-3adc94a74db7/resourceGroups/packernimages/providers/Microsoft.Compute/images/packer-w2k22-azure-20240412103749",
+      "packer_run_uuid": "4e927ac5-cc9c-0aea-47a3-59c8adbcaded",
+      "custom_data": null
+    },
+    {
+      "name": "windows_2022",
+      "builder_type": "azure-arm",
+      "build_time": 1712923159,
+      "files": null,
+      "artifact_id": "/subscriptions/c39f4598-3052-44c2-9661-3adc94a74db7/resourceGroups/packernimages/providers/Microsoft.Compute/images/packer-w2k22-azure-20240412114630",
+      "packer_run_uuid": "b7e52888-acd1-e87d-4b0f-d729dfd7277f",
+      "custom_data": null
+    },
+    {
+      "name": "ubuntu",
+      "builder_type": "azure-arm",
+      "build_time": 1712928055,
+      "files": null,
+      "artifact_id": "/subscriptions/c39f4598-3052-44c2-9661-3adc94a74db7/resourceGroups/packerimages/providers/Microsoft.Compute/images/packer-ubuntu-azure-1712927771",
+      "packer_run_uuid": "a6411723-5350-7471-c0da-d448ef03bd66",
+      "custom_data": null
+    },
+    {
+      "name": "windows_2022",
+      "builder_type": "azure-arm",
+      "build_time": 1712928958,
+      "files": null,
+      "artifact_id": "/subscriptions/c39f4598-3052-44c2-9661-3adc94a74db7/resourceGroups/packernimages/providers/Microsoft.Compute/images/packer-w2k22-azure-20240412132143",
+      "packer_run_uuid": "ce04e059-49e4-6c81-2972-b67515c4997b",
+      "custom_data": null
+    }
+  ],
+  "last_run_uuid": "ce04e059-49e4-6c81-2972-b67515c4997b"
+}
